@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:lightcyan;   
+}
+
+.section-border {
+    border-color:blue;
+    border-left: 3xp solid;
+    padding: 10px 20px;
+    margin: auto 0;
+}
+
+.section-title {
+    color:blue;
+    font-size: 30px;
+    padding-right: 20px;
+    text-align: end;
+    flex: 3 30%;
+}
+
+.section-text {
+    color:blue;
+    font-size: 25px;
+    flex: 7 70%;
+}
+
+.section-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 7 70%;
+}
+
+header h1 {
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    background-color:lightcyan;
+    padding: 20px;
+    margin: 20-x 20px 20px 0;
+}
+
+header a {
+    color: blue;
+}
+
+header nav {
+    margin: 7px 20px;
+    padding: 0 4%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    transition: all 0.4s ease-in-out;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+footer {
+    padding: 60px;
+}
+
+footer a {
+    color: blue;
+    transition: all 0.4s ease-in-out;
+    margin: 0 5%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+footer a:hover {
+    background: blue;
+    color: white;
+}
+
+section {
+    padding: 60px;
+}
+
+.work img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-work {
+    width: 100%;
+    height: 50vh;
+    border: 5px solid blue;
+}
+
+.fade {
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 1.0;
+}
+
+.work h3 {
+    position: relative;
+    color: blue;
+    background: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    width: fit-content;
+    bottom: 100px;
+    left: -3px;
+}
+
+.work p {
+    font-size: 20px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
